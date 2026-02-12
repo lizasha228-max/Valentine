@@ -38,6 +38,7 @@ body {
 }
 
 .yes__button {
+  color: black;
   padding: 15px 25px 15px 25px;
   border-radius: 50px 50px 50px 50px;
   background-color: #fda0d4;
@@ -47,6 +48,7 @@ body {
 }
 
 .no__button {
+  color: black;
   padding: 20px 25px 20px 25px;
   border-radius: 50%;
   background-color: lightgrey;
@@ -118,19 +120,38 @@ body {
   cursor: pointer;
 }
 
-
-@media (max-width: 858px){
-  .head__tittle{
-    padding-top: 90px;
+@media (max-width: 431px) {
+  .head__tittle {
+    padding-top: 170px;
     font-size: 40px;
   }
-}
 
-@media (max-width: 740px){
-  .head__tittle{
-    padding-top: 90px;
-    font-size: 35px;
-    margin-left: 45px;
+  .yes__button {
+    margin-left: 50px;
+  }
+
+  .no__button {
+    top: 380px;
+    right: 70px;
+  }
+
+  .head__tittle.yes {
+    padding-top: 70px;
+    padding-left: 60px;
+  }
+
+  .gravity__block {
+    display: block;
+  }
+
+  .mind {
+    transform: translateX(70%);
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .gravity{
+   margin-left:3px;
+   width: 350px;
   }
 }
-
