@@ -1,0 +1,136 @@
+body {
+  background-color: lightpink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  background-color: white;
+  height: 80%;
+  width: 90%;
+  max-width: 900px;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.head__tittle {
+  padding-top: 70px;
+  color: #fb4e74;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  padding-right: 40px;
+}
+
+.pig__img {
+  border-radius: 50px 50px 50px 50px;
+  padding-top: 30px;
+  background-color: white;
+  width: 200px;
+}
+
+.head__info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.yes__button {
+  padding: 15px 25px 15px 25px;
+  border-radius: 50px 50px 50px 50px;
+  background-color: #fda0d4;
+  font-size: 40px;
+  cursor: pointer;
+  margin-left: 170px;
+}
+
+.no__button {
+  padding: 20px 25px 20px 25px;
+  border-radius: 50%;
+  background-color: lightgrey;
+  font-size: 10px;
+  cursor: pointer;
+  position: absolute;
+  right: 130px;
+  top: 290px;
+}
+
+.btn__block {
+  display: flex;
+  padding-top: 60px;
+}
+
+.devil__img {
+  background-color: white;
+  width: 30px;
+  padding-top: 13px;
+}
+
+.block__p {
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+.gravity {
+  width: 380px;
+}
+
+.kiss {
+  width: 300px;
+}
+
+.gravity__block {
+  display: flex;
+  justify-content: space-around;
+}
+
+.kiss {
+  width: 40px;
+  height: 40px;
+  padding-top: 5px;
+}
+
+.block__yey {
+  display: flex;
+  justify-content: center;
+  padding-left: 30px;
+  align-items: center;
+}
+
+.text__yay {
+  color: #fb4e74;
+  font-size: 30px;
+}
+
+.mind {
+  color: #2e0742;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #c83b4f;
+  padding: 15px 7px 15px 7px;
+  border-radius: 50px 50px 50px 50px;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+@media (max-width: 858px){
+  .head__tittle{
+    padding-top: 90px;
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 740px){
+  .head__tittle{
+    padding-top: 90px;
+    font-size: 35px;
+    margin-left: 45px;
+  }
+}
+
