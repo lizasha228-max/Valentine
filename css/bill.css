@@ -77,4 +77,24 @@ body {
     left: 27%;
   transform: translateX(-20%);
   }
+
+  .bill {
+  z-index: 3;
+  position: fixed;
+  top: -200px;
+  left: 50%;
+  transform: translateX(-50%) scale(0.5);
+  animation: dropToCenter 1.2s ease-out forwards;
 }
+
+@keyframes dropToCenter {
+  to {
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+}
+/* px em % vw vh */
+
+/* 100vw width  */
